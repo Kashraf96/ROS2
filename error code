@@ -1,0 +1,79 @@
+--- stderr: fastrtps                                      
+In file included from /home/pi/ros2_foxy/src/eProsima/Fast-DDS/include/fastdds/rtps/attributes/RTPSParticipantAttributes.h:31,
+                 from /home/pi/ros2_foxy/src/eProsima/Fast-DDS/include/fastdds/dds/core/policy/QosPolicies.hpp:29,
+                 from /home/pi/ros2_foxy/src/eProsima/Fast-DDS/include/fastrtps/qos/QosPolicies.h:23,
+                 from /home/pi/ros2_foxy/src/eProsima/Fast-DDS/include/fastdds/rtps/attributes/WriterAttributes.h:27,
+                 from /home/pi/ros2_foxy/src/eProsima/Fast-DDS/include/fastdds/rtps/writer/RTPSWriter.h:25,
+                 from /home/pi/ros2_foxy/src/eProsima/Fast-DDS/src/cpp/rtps/writer/RTPSWriter.cpp:20:
+/home/pi/ros2_foxy/src/eProsima/Fast-DDS/include/fastdds/rtps/attributes/ServerAttributes.h:72:30: error: expected identifier before numeric constant
+     FASTDDS_DEPRECATED_UNTIL(3, "eprosima::fastrtps::rtps:GetEDPPublicationsReader()",
+                              ^
+/home/pi/ros2_foxy/src/eProsima/Fast-DDS/include/fastdds/rtps/attributes/ServerAttributes.h:72:30: error: expected ‘,’ or ‘...’ before numeric constant
+/home/pi/ros2_foxy/src/eProsima/Fast-DDS/include/fastdds/rtps/attributes/ServerAttributes.h:73:50: error: ISO C++ forbids declaration of ‘FASTDDS_DEPRECATED_UNTIL’ with no type [-fpermissive]
+             "Not implemented nor used functions.")
+                                                  ^
+/home/pi/ros2_foxy/src/eProsima/Fast-DDS/include/fastdds/rtps/attributes/ServerAttributes.h:73:50: error: expected ‘;’ at end of member declaration
+             "Not implemented nor used functions.")
+                                                  ^
+                                                   ;
+/home/pi/ros2_foxy/src/eProsima/Fast-DDS/include/fastdds/rtps/attributes/ServerAttributes.h:75:30: error: expected identifier before numeric constant
+     FASTDDS_DEPRECATED_UNTIL(3, "eprosima::fastrtps::rtps:GetEDPSubscriptionsWriter()",
+                              ^
+/home/pi/ros2_foxy/src/eProsima/Fast-DDS/include/fastdds/rtps/attributes/ServerAttributes.h:75:30: error: expected ‘,’ or ‘...’ before numeric constant
+/home/pi/ros2_foxy/src/eProsima/Fast-DDS/include/fastdds/rtps/attributes/ServerAttributes.h:76:50: error: ISO C++ forbids declaration of ‘FASTDDS_DEPRECATED_UNTIL’ with no type [-fpermissive]
+             "Not implemented nor used functions.")
+                                                  ^
+/home/pi/ros2_foxy/src/eProsima/Fast-DDS/include/fastdds/rtps/attributes/ServerAttributes.h:76:50: error: expected ‘;’ at end of member declaration
+             "Not implemented nor used functions.")
+                                                  ^
+                                                   ;
+/home/pi/ros2_foxy/src/eProsima/Fast-DDS/include/fastdds/rtps/attributes/ServerAttributes.h:75:5: error: ‘int eprosima::fastdds::rtps::RemoteServerAttributes::FASTDDS_DEPRECATED_UNTIL(int)’ cannot be overloaded with ‘int eprosima::fastdds::rtps::RemoteServerAttributes::FASTDDS_DEPRECATED_UNTIL(int)’
+     FASTDDS_DEPRECATED_UNTIL(3, "eprosima::fastrtps::rtps:GetEDPSubscriptionsWriter()",
+     ^~~~~~~~~~~~~~~~~~~~~~~~
+/home/pi/ros2_foxy/src/eProsima/Fast-DDS/include/fastdds/rtps/attributes/ServerAttributes.h:72:5: note: previous declaration ‘int eprosima::fastdds::rtps::RemoteServerAttributes::FASTDDS_DEPRECATED_UNTIL(int)’
+     FASTDDS_DEPRECATED_UNTIL(3, "eprosima::fastrtps::rtps:GetEDPPublicationsReader()",
+     ^~~~~~~~~~~~~~~~~~~~~~~~
+/home/pi/ros2_foxy/src/eProsima/Fast-DDS/include/fastdds/rtps/attributes/ServerAttributes.h:79:30: error: expected identifier before numeric constant
+     FASTDDS_DEPRECATED_UNTIL(3, "eprosima::fastrtps::rtps:GetEDPPublicationsWriter()",
+                              ^
+/home/pi/ros2_foxy/src/eProsima/Fast-DDS/include/fastdds/rtps/attributes/ServerAttributes.h:79:30: error: expected ‘,’ or ‘...’ before numeric constant
+/home/pi/ros2_foxy/src/eProsima/Fast-DDS/include/fastdds/rtps/attributes/ServerAttributes.h:80:50: error: ISO C++ forbids declaration of ‘FASTDDS_DEPRECATED_UNTIL’ with no type [-fpermissive]
+             "Not implemented nor used functions.")
+                                                  ^
+/home/pi/ros2_foxy/src/eProsima/Fast-DDS/include/fastdds/rtps/attributes/ServerAttributes.h:80:50: error: expected ‘;’ at end of member declaration
+             "Not implemented nor used functions.")
+                                                  ^
+                                                   ;
+/home/pi/ros2_foxy/src/eProsima/Fast-DDS/include/fastdds/rtps/attributes/ServerAttributes.h:79:5: error: ‘int eprosima::fastdds::rtps::RemoteServerAttributes::FASTDDS_DEPRECATED_UNTIL(int)’ cannot be overloaded with ‘int eprosima::fastdds::rtps::RemoteServerAttributes::FASTDDS_DEPRECATED_UNTIL(int)’
+     FASTDDS_DEPRECATED_UNTIL(3, "eprosima::fastrtps::rtps:GetEDPPublicationsWriter()",
+     ^~~~~~~~~~~~~~~~~~~~~~~~
+/home/pi/ros2_foxy/src/eProsima/Fast-DDS/include/fastdds/rtps/attributes/ServerAttributes.h:72:5: note: previous declaration ‘int eprosima::fastdds::rtps::RemoteServerAttributes::FASTDDS_DEPRECATED_UNTIL(int)’
+     FASTDDS_DEPRECATED_UNTIL(3, "eprosima::fastrtps::rtps:GetEDPPublicationsReader()",
+     ^~~~~~~~~~~~~~~~~~~~~~~~
+/home/pi/ros2_foxy/src/eProsima/Fast-DDS/include/fastdds/rtps/attributes/ServerAttributes.h:82:30: error: expected identifier before numeric constant
+     FASTDDS_DEPRECATED_UNTIL(3, "eprosima::fastrtps::rtps:GetEDPSubscriptionsReader()",
+                              ^
+/home/pi/ros2_foxy/src/eProsima/Fast-DDS/include/fastdds/rtps/attributes/ServerAttributes.h:82:30: error: expected ‘,’ or ‘...’ before numeric constant
+/home/pi/ros2_foxy/src/eProsima/Fast-DDS/include/fastdds/rtps/attributes/ServerAttributes.h:83:50: error: ISO C++ forbids declaration of ‘FASTDDS_DEPRECATED_UNTIL’ with no type [-fpermissive]
+             "Not implemented nor used functions.")
+                                                  ^
+/home/pi/ros2_foxy/src/eProsima/Fast-DDS/include/fastdds/rtps/attributes/ServerAttributes.h:83:50: error: expected ‘;’ at end of member declaration
+             "Not implemented nor used functions.")
+                                                  ^
+                                                   ;
+/home/pi/ros2_foxy/src/eProsima/Fast-DDS/include/fastdds/rtps/attributes/ServerAttributes.h:82:5: error: ‘int eprosima::fastdds::rtps::RemoteServerAttributes::FASTDDS_DEPRECATED_UNTIL(int)’ cannot be overloaded with ‘int eprosima::fastdds::rtps::RemoteServerAttributes::FASTDDS_DEPRECATED_UNTIL(int)’
+     FASTDDS_DEPRECATED_UNTIL(3, "eprosima::fastrtps::rtps:GetEDPSubscriptionsReader()",
+     ^~~~~~~~~~~~~~~~~~~~~~~~
+/home/pi/ros2_foxy/src/eProsima/Fast-DDS/include/fastdds/rtps/attributes/ServerAttributes.h:72:5: note: previous declaration ‘int eprosima::fastdds::rtps::RemoteServerAttributes::FASTDDS_DEPRECATED_UNTIL(int)’
+     FASTDDS_DEPRECATED_UNTIL(3, "eprosima::fastrtps::rtps:GetEDPPublicationsReader()",
+     ^~~~~~~~~~~~~~~~~~~~~~~~
+make[2]: *** [src/cpp/CMakeFiles/fastrtps.dir/build.make:193: src/cpp/CMakeFiles/fastrtps.dir/rtps/writer/RTPSWriter.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:987: src/cpp/CMakeFiles/fastrtps.dir/all] Error 2
+make: *** [Makefile:163: all] Error 2
+---
+Failed   <<< fastrtps [12.3s, exited with code 2]
+                                         
+Summary: 42 packages finished [2min 11s]
+  1 package failed: fastrtps
+  1 package had stderr output: fastrtps
+  225 packages not processed
